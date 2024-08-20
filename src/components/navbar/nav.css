@@ -1,0 +1,29 @@
+
+.bg {
+   text-align: center;
+    align-items: center;
+    padding: 2rem;
+   background:linear-gradient(#08629d,#4cc2ed,#DFD7C6);
+    height:auto;
+    color: white;
+}
+
+h2 {
+    font-family: "Farsan", cursive;
+    font-weight:900;
+    font-size:3rem;
+    color: white;
+    margin: 0;
+}
+h6{
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 800;
+  font-size:15px;
+  letter-spacing: 5px;
+}
+
+@media (max-width:480px) {
+    .bg {
+        align-items:center;
+    }
+}

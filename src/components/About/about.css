@@ -1,0 +1,33 @@
+.about_container{
+    
+}
+.info p{
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+    font-size:25px;
+    padding: 4rem;
+    border-radius:30px;
+    line-height: 37px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+body{
+    background-color: aliceblue;
+}
+
+.info span{
+    margin-left: 40%;
+}
+
+@media(max-width:480px){
+   .info p{
+    font-size: small;
+    line-height: normal;
+    text-align: justify;
+    padding: 2rem;
+   } 
+   .info span{
+    margin-left: 0;
+   }
+}
