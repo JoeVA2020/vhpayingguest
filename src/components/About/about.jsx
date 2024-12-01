@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import backgroundImage from '../Images/background.webp'
+import backgroundImage from '../Images/background_final.jpg'
 export default function About(){
     return(
         <>
